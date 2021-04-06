@@ -1,0 +1,85 @@
+main{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.main-logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+.main-logo img{
+    width: 400px;
+}
+
+main .main-input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input .main-input-conteiner{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input{
+    width: 400px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+main .main-input-conteiner:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+}
+
+main .main-input .icon-search{
+    background-image: url('../Imagen/search.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+main .main-input .icon-micro{
+    background-image: url('../Imagen/Microfono.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+main .main-boton{
+    width: 530px;
+    margin: 0 auto;
+}
+main .main-boton div{
+    display: inline-block;
+}
+
+main .main-boton button{
+    height: 36px;
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 5px;
+    padding: 0 15px;
+    outline: none;
+    margin-right: 20px;
+}
+
+main .main-boton button:hover{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px #000001;
+    color: #222;
+    
+}
